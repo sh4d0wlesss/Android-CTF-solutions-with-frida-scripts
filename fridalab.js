@@ -31,6 +31,7 @@ Java.perform(function(){
       })
     }, 10000);
     // 2 - 4 - 7 - 8 ---------------------------------------------------------------------------
+    // Instead of hooking onCreate(or init function of classes) we can use setTimeout about 2-3 second to waiting for main acticity instance creation.(like challenge 6 solution.)
     MainActivity["onCreate"].implementation = function (bundle) {
         console.log(`MainActivity.onCreate is called: bundle=${bundle}`);
 
