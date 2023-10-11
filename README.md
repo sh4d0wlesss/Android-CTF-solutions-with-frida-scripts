@@ -1,5 +1,5 @@
 - Fridalabs solution added
-
+- hpAndro ctf solution scripts added
+- some of juicybar solutions added
 TODO:
-- Add hpandro solution scripts
-- Add juicybar frida scripts
+- Add all juicybar frida scripts
