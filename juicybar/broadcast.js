@@ -8,6 +8,7 @@ Java.perform(function(){
         console.log(`Original flag result= JUICY{${result}}`);
 
         //for getting flag 3, create an fake intent with expected action :)
+        // https://stackoverflow.com/questions/65488104/how-to-use-intent-in-frida
         const intentClass = Java.use("android.content.Intent");
         var intentTT = intentClass.$new();
         intentTT.setAction("xyz.barsk.juicy.action.KAMEN");
